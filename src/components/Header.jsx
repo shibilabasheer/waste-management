@@ -14,7 +14,7 @@ function Header() {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="warning" data-bs-theme="dark" className="d-flex justify-content-between px-4 ">
-                <div><img src="src/assets/logo.png" alt="Logo" height="50" /></div>
+                <div><img src="logo.png" alt="Logo" height="50" /></div>
                 <Nav>
                     <NavLink to="/" className={linkClass}><FaHome size={15} className="mx-1" /> Home </NavLink>
                     <NavLink to="/about" className={linkClass}><FaInfoCircle size={15} className="mx-1" /> About</NavLink>
